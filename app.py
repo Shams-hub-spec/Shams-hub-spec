@@ -92,9 +92,3 @@ def detect():
         return jsonify({"error": str(e)}), 500
 
 
-# ---------------------------
-# SERVER START
-# ---------------------------
-if __name__ == "__main__":
-    print("Server ishga tushmoqda...")
-    app.run(host="0.0.0.0", port=5000, debug=False)
